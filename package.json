@@ -1,0 +1,14 @@
+{
+  "name": "adventofcode2022",
+  "version": "1.0.0",
+  "description": "Adcent of Code 2022 submissions",
+  "main": "index.js",
+  "scripts": {
+    "day1": "npx tsc src/2022-12-01/index.ts && node src/2022-12-01/index.js "
+  },
+  "author": "Vithuran Sadagopan",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
