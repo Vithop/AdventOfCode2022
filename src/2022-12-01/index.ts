@@ -32,6 +32,7 @@ for (let i = 0; i < caloriesList.length; i++) {
     countTopThreeCalories(caloriesList[i]);
 }
 
+console.log("Test results")
 console.log(topThreeElves);
 console.log(topThreeElves.reduce(sum))
 
@@ -56,6 +57,7 @@ async function processLineByLine() {
         countTopThreeCalories(c)
 
     }
+    console.log("Real Results")
     console.log(topThreeElves);
     console.log(topThreeElves.reduce(sum))
 
