@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "index": "node dist/index.js",
+    "index": "npm run build && node dist/index.js",
     "day1": "npx tsc && node build/index.js "
   },
   "author": "Vithuran Sadagopan",
